@@ -1,0 +1,36 @@
+.cooltable {
+    width: 100%;
+    border: 1px solid #000;
+}
+.cooltable tr {
+    border-bottom: 1px solid #000;
+}
+.cooltable thead tr th {
+    border-right: 1px solid #000;
+    text-align:center;
+    padding: 10px 25px;
+}
+.cooltable thead tr th:nth-of-type(odd) {
+    background: #E0F8D4;
+}
+.cooltable thead tr th:nth-of-type(even) {
+    background:  rgba(117, 140, 31, 0.5);
+}
+.cooltable thead tr th:first-of-type, .cooltable thead tr th:first-of-type {
+    text-align: left;
+}
+.cooltable tbody tr th {
+    padding: 10px 25px;
+}
+.cooltable tbody tr td{
+    text-align: center;
+    padding: 10px 25px;
+}
+.content-wrap {
+    padding: 30px;
+}
+.content-wrap h1 {
+    color: red;
+    text-align: center;
+    margin-bottom: 30px;
+}
